@@ -1,4 +1,107 @@
-.header{
-  background: #69F0AE;
+*{
+  box-sizing: border-box;
+}
+body{
+  color:#650300;
+  line-height: 1.5;
+  font-family: 'Bruno Ace SC', cursive;
+  font-family: 'Noto Sans TC', sans-serif;
+  a{
+    text-decoration: none;
+  }
+}
+img{
+  max-width: 100%;
+  vertical-align: middle;
+
+}
+.container{
+  max-width: 1296px;
+  margin:0 auto;
+}
+
+/*字型樣式*/
+h1{
   font-size: 64px;
+  font-weight: 900;
+}
+h2{
+  font-size: 48px;
+  font-weight: 900;
+}
+h3{
+  font-size: 36px;
+}
+h4{
+  font-size: 24px;
+  font-weight: 900;
+}
+.color-primary{
+  color:#650300
+}
+.color-white{
+  color:white;
+}
+/*排版設定*/
+.d-flex{
+  display: flex;
+}
+.jcsb{
+  justify-content: space-between;
+}
+/*區塊*/
+.header{
+  padding: 12px;
+}
+.bg-color-primary{
+  background-color: #AA0601;
+}
+.bg-color-secondary{
+  background-color: #FBF2F2;
+
+}
+.content-px{
+  padding: 80px 0;
+  text-align: center;
+}
+.logo-1{
+  width: 80px;
+}
+.pr-64{
+  padding-right: 64px;
+}
+@media(max-width:992px){
+  
+  
+}
+@media(max-width:768px){
+  
+  .header{
+    height: auto;
+    .logo-1{
+      margin-right: auto;
+    }
+    .flex-column{
+      flex-direction: column;
+    }
+    
+    ul{
+      width: 99%;
+      flex-wrap: wrap;
+      li.pr-64{
+        width: 50%;
+        padding: 12px 62px;
+        border: 1px solid #FFFFFF;
+        text-align: center;
+      }
+
+    }
+
+
+
+
+
+
+  }
+
 }

@@ -1,4 +1,25 @@
 .footer{
-  background: #69F0AE;
-  font-size: 64px;
+  padding: 48px 0;
+}
+ul a{
+  text-decoration: none;
+  img{
+    width: 48px;
+    height: 48px;
+  }
+}
+
+.mr-4{
+  margin-right: 32px;
+}
+.mr-5{
+  margin-right: 48px;
+}
+.mb-4{
+  margin-bottom: 32px;
+}
+.footer-icon{
+  font-size: 36px;
+  color:white;
+  margin-right: 20px
 }
