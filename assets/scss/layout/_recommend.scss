@@ -17,3 +17,24 @@
 .mr-3{
     margin-right: 24px;
 }
+@media (max-width:992px) {
+    .recommend-sec{
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+    }
+    .recommend-card{
+        width: 45%;
+        margin: 0 auto;
+        margin-bottom: 24px;
+    }
+    
+}
+
+@media (max-width:786px){
+    .recommend-card{
+        width: 100%;
+        
+    }
+}
+
