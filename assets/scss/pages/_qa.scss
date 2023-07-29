@@ -1,0 +1,25 @@
+.qa{
+    max-width: 856px; 
+}
+@media (max-width:992px) {
+    .qa{
+        padding-left: 3%;
+        padding-right: 3%;
+         }
+}
+
+.page-title{
+    border-left: 8px solid #9F1213;
+    padding-left: 16px;
+}
+@media (max-width:786px)  {
+    .page-title,.qa-title-2{
+        font-size: 24px;
+    }
+}
+.text-start{
+    text-align: left;
+}
+.mb-4{
+    margin-bottom: 32px;
+}

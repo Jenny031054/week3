@@ -1,0 +1,59 @@
+.shop{
+    width: 90%;
+}
+
+
+.region-menu{
+    padding-right: 16px;
+}
+@media (max-width:767px) {
+    .region-menu h4{
+        font-weight: normal;
+    }
+}
+
+.shop-list{
+    flex-wrap: wrap;
+    
+    margin: 0 auto;
+}
+.shop-card{
+    width: 30%;
+    flex-direction: column;
+    border: #00000020 1px solid;
+    margin-right: 24px;
+    margin-bottom: 48px;
+    
+}
+@media (max-width:992px) {
+    .shop-card{   
+    width: 45%;
+    
+    }
+}
+@media (max-width:767px) {
+    .shop-card{   
+    width: 100%;
+    
+    }
+}
+
+.shop-name{
+    border-bottom: #00000020 1px solid;
+    padding:8px 24px;
+    font-weight: normal;
+
+}
+.contact-info{
+    padding: 16px 24px;
+}
+.info-btn{
+    background-color: black;
+    color:white;
+    padding: 16px;
+    font-size: 20px;
+    
+}
+.pr-3{
+    padding-right: 24px;
+}

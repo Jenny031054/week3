@@ -38,6 +38,10 @@ h4{
   font-size: 24px;
   font-weight: 900;
 }
+h5{
+  font-size: 20px;
+  font-weight: 900;
+}
 .color-primary{
   color:#650300
 }
@@ -65,6 +69,11 @@ h4{
 .content-px{
   padding: 80px 0;
   text-align: center;
+}
+@media (max-width:768px) {
+  .content-px{
+    padding: 40px 0;
+  }
 }
 .logo-1{
   width: 80px;
