@@ -1,0 +1,57 @@
+.jcc{
+    justify-content: center;
+}
+
+.frame-items{
+    
+    width: 23%;
+    text-align: center;
+    margin-right: 24px;
+    margin-bottom: 80px;
+}
+.product-list{
+    flex-wrap: wrap;
+}
+.frame-name{
+    h4{
+        font-weight: normal;
+    }
+}
+.frame-link{
+    padding: 24px ;
+}
+.img-section{
+    max-height: 296px;
+}
+.img-section-1{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-1.png?raw=true);
+}
+.img-section-2{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-2.png?raw=true);
+}
+.fz-42{
+    font-size: 42px;
+}
+.mr-1{
+    margin-right: 8px;
+}
+.mb-4{
+    margin-bottom: 32px;
+}
+.color-1{
+    width: 24px;
+    height: 24px;
+    background-color: #5F3E2D;
+    border-radius: 4px;
+}
+.color-2{
+    width: 24px;
+    height: 24px;
+    background-color: #B75929;
+    border-radius: 4px;
+}
+.price{
+    color: #AA0601;
+    font-weight: normal;
+}
+      
