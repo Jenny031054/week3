@@ -1,4 +1,4 @@
-*{
+*,*::before,*::after{
   box-sizing: border-box;
 }
 body{
@@ -6,10 +6,12 @@ body{
   line-height: 1.5;
   font-family: 'Bruno Ace SC', cursive;
   font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'Roboto', sans-serif;
   a{
-    text-decoration: none;
+  text-decoration: none;
   }
-}
+  }
+
 img{
   max-width: 100%;
   height: auto;
@@ -19,7 +21,8 @@ img{
 .container{
   max-width: 1320px;
   margin:0 auto;
-  padding:  0 12px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 /*字型樣式*/
