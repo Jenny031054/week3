@@ -1,12 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Roboto:ital,wght@0,400;1,900&display=swap");
 *,*::before,*::after{
   box-sizing: border-box;
 }
+
 body{
   color:#650300;
   line-height: 1.5;
-  font-family: 'Bruno Ace SC', cursive;
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'Bruno Ace SC', 'cursive';
   font-family: 'Roboto', sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
+  
   a{
   text-decoration: none;
   }
@@ -28,18 +31,42 @@ img{
 /*字型樣式*/
 h1{
   font-size: 64px;
-  font-weight: 900;
+  
+}
+.fs-64{
+  font-size: 64px;
+  font-weight: bold;
+}
+@media (max-width:576px) {
+  .fs-64{
+    font-size: 24px;
+  }
 }
 h2{
   font-size: 48px;
-  font-weight: 900;
+  
+}
+.fs-48{
+  font-size: 48px;
+  font-weight: bold;
+  @media (max-width:576px) {
+    font-size: 24px;
+  }
 }
 h3{
+  font-size: 36px; 
+}
+.fs-36{
   font-size: 36px;
+}
+@media (max-width:576px) {
+.fs-36{
+  font-size: 16px;
+}
 }
 h4{
   font-size: 24px;
-  font-weight: 900;
+  font-weight: bold;
 }
 h5{
   font-size: 20px;
@@ -57,6 +84,12 @@ h5{
 }
 .jcsb{
   justify-content: space-between;
+}
+.jcfe{
+  justify-content: flex-end;
+}
+.h-100{
+  height: 100%;
 }
 /*區塊*/
 .header{
@@ -108,10 +141,13 @@ h5{
         width: 50%;
         border: 1px solid #FFFFFF;
         text-align: center;
-        padding-top: 12px;
-        padding-bottom: 12px;
+        
       }
 
+    }
+    .navbar-link{
+      display: block;
+      width: 100%;
     }
   }
   .flex-column{
@@ -119,6 +155,7 @@ h5{
   }
  
   .navbar-link{
+    height: 100%;
     padding:12px 0;
     font-size: 16px;
     

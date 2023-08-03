@@ -9,12 +9,6 @@
 .text-center{
     text-align: center;
 }
-
-.input{
-    width:100%;
-    padding: 6px 0 6px 12px;
-    
-}
 .check-icon{
     width: 24px;
     height: 24px;
@@ -31,17 +25,22 @@
     text-align: center;
     
 }
-input{
-    margin-bottom:16px; 
-    background-color: #FBF2F2;
+.input-style{
+    margin-bottom:16px;
+    padding: 6px 12px; 
+    background-color: transparent;
+    display: block;
+    width: 100%;
+    border: 1px solid #000000;
     
 }
 .m0-auto{
     margin: 0 auto;
 }
 .feedback{
+    resize: none;
     min-height: 136px;
-    
+
 }
 @media(max-width:992px){
     .contact{

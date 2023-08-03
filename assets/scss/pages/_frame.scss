@@ -2,8 +2,9 @@
     width: 90%;
     margin: 0 auto;
 }
-.h2{
+.frame-title{
     font-size: 48px;
+    font-weight: 900;
 }
 .italic{
     font-style: italic;
@@ -16,15 +17,18 @@
     justify-content:space-evenly
 }
 .classic-frame-items{
+    
     padding-right: 24px;
+    @media (max-width:992px) {
+        padding-right: 0px;
+       
+    }
 }
 .text-center{
     text-align: center;
 }
 
-.frame-img1{
-    max-width: 416px;
-}
+
 .color-secondary{
     color:#aa0601;
 }
@@ -39,23 +43,18 @@
     padding: 8px 0;
 }
 @media (max-width:992px) {
-    
-    
+   
     .frame{
         width: 90%;
-    }
-    
-    
+    }   
     .joint-name-card{
         width: 90%;
     }
-
     .classic-frame{
-        
-        width: 50%; 
+        padding-right: 13px;
+        padding-left: 13px; 
         margin: 0 auto;       
-        display: flex;
-        
+        display: flex; 
         flex-wrap: wrap;
         li{
             margin-bottom: 24px;
