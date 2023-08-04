@@ -3,6 +3,8 @@
 }
 .blog-tag-list{
     background-color: #650300;
+
+    
     li{
         padding-top: 13px;
         padding-bottom: 13px;
@@ -12,11 +14,24 @@
         margin-right: 48px;
         color:white;
         font-weight: bold;
+        @media (max-width:992px) {
+            font-size: 20px;
+            
+        }
+        @media (max-width:786px) {
+            font-size: 16px;
+            margin-right: 16px;
+            
+        }
+
         
     }
     .search-icon{
         color: white;
         font-size: 29px;
+        @media (max-width:786px) {
+            display: none;
+        }
         
         
     }
@@ -36,9 +51,11 @@
     .blog{
     padding:40px 36px;
     }
-}
-.blog-list{
-    margin-bottom: 60px;
+
+    .blog-list{
+        margin-bottom: 60px;
+    }
+    
 }
 @media (max-width:768px) {
     .blog {
@@ -60,6 +77,7 @@
             display: none;
         }
     }
+   
 }
 .blog-text-list{
     flex-direction: column;
@@ -107,3 +125,75 @@
     margin-top: auto;
     
 }
+/*blog-inner-page*/
+.fs-32{
+    font-size: 32px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.color-gray{
+    color: #555555;
+}
+.mx-1{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.mb-2{
+    margin-bottom: 16px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+.mb-80{
+    margin-bottom: 80px;
+}
+.mr-2{
+    margin-right: 16px;
+}
+.font-bold{
+    font-weight: bold;
+}
+
+.jump-page-section{
+    @media (max-width:576px) {
+        display: none;
+    }
+}
+.blog-page-link{
+    padding-right: 8px;
+    :hover{
+        color:#AA0601;
+    }
+}
+.tag{
+    font-size: 24px;
+    color:#AA0601;
+    font-weight: bold;
+    @media (max-width:992px) {
+        font-size: 16px;
+    }
+}
+.project-section{
+    border-bottom: 1px solid #707070;
+    padding-bottom: 16px;
+    
+    width: 66%;
+    @media (max-width:992px) {
+        width: 65%;
+    }
+    @media (max-width:576px) {
+        width: 90%;
+        .social-icon{
+            display: none;
+            }
+        }
+    }
+
+.tag-section{
+    width: 30%;
+    @media (max-width:576px) {
+        display: none;
+    }
+}
+

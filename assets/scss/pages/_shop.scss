@@ -8,11 +8,29 @@
 .region-menu{
     padding-right: 16px;
 }
-@media (max-width:767px) {
-    .region-menu h4{
+
+
+.region-menu {
+
+    
+    @media (max-width:992px){
+        .fs-24{
         font-weight: normal;
     }
+    }
+    @media (max-width:786px) {
+        .region-select{
+            width: 70%;
+        }
+        .fs-24{
+        font-weight: normal;
+        font-size: 16px;
+        padding-right: 0px;
+        }
+
 }
+}
+
 
 .shop-list{
     flex-wrap: wrap;
@@ -49,6 +67,12 @@
     @media (max-width:576px) {
         flex-direction: column;
         width: 100%;
+        .shop-img{
+            width: 100%;
+        }
+        .shop-text{
+            width: 100%;}
+
     }
 
 }
