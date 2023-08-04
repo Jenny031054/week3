@@ -10,10 +10,14 @@
   <body>
     <%- include('./layout/header'); -%>
       <div class="container shop content-px text-start color-black">
-        <h2 class="page-title mb-4">門市據點</h2>
+        <h1 class="page-title fs-48 mb-4">門市據點</h1>
         <div class="region-menu d-flex mb-4 align-center">
           <h4 class=" pr-3">選擇地區</h4>
-          <input type="text">
+          <select name="region" id="region-select" class="region-select">
+            <option value="Taipei">台北市</option>
+            <option value="Taichung">台中市</option>
+            <option value="Kaohsiung">高雄市</option>
+          </select>
         </div>
          <!--1-->
         <ul class="shop-list d-flex ">
@@ -40,7 +44,7 @@
                 <p>地址：台北市中山區南京東路25巷2-1號</p>
               </li>
             </ul>
-            <a href="#" class="info-btn text-center">詳細資訊</a>              
+            <a href="./shop-branch.html" class="info-btn text-center">詳細資訊</a>              
           </li>
       
 
