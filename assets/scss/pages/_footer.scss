@@ -9,16 +9,21 @@
   width: 48px;
   height: 48px;
 }
+.footer-link a{
+  font-weight: normal;
+}
 
 .mr-4{
   margin-right: 32px;
 }
+
 .mr-5{
   margin-right: 48px;
 }
 .mb-4{
   margin-bottom: 32px;
 }
+
 .social-list{
   margin-right: 32px;
   
@@ -45,6 +50,9 @@
 @media (max-width:992px) {
   .footer{
     padding:24px 16px;
+  }
+  .mr-md-4{
+      margin-right: 24px;
   }
   
 }
