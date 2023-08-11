@@ -126,7 +126,7 @@
 
 } 
 
-.more-btn{
+.MORE-btn{
     color: #650300;
     font-size: 36px;
     font-weight: 900;
@@ -136,6 +136,15 @@
         display: none;
     }
     
+}
+.more-btn{
+    display: none;
+    color:#555555;
+    font-size: 16px;
+    
+    @media (max-width:992px){
+        display:inline-block;
+    }
 }
 /*blog-inner-page*/
 .fs-32{
